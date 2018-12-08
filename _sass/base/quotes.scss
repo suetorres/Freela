@@ -1,0 +1,28 @@
+/*===================================================
+    #QUOTES
+===================================================*/
+
+/*----Inline quotes---*/
+q {
+    font-style: italic;
+    quotes: "‘" "’" "“" "”";
+    &:before {
+        content: open-quote;
+    }
+    &:after {
+        content: close-quote;
+    }
+}
+
+/*===================================================
+    Blockquotes
+===================================================*/
+
+.blockquote {
+  margin: 3rem 0;
+  padding: 1rem 3rem; }
+.blockquote > p {
+  margin: 0; }
+
+
+  

@@ -1,0 +1,19 @@
+/*===================================================
+   BUTTONS
+===================================================*/
+
+button{
+  display:inline-block;
+  cursor: pointer;
+  margin:$margin;
+  text-decoration:none;
+  font-weight:700;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  border-radius:$global-radius;
+  vertical-align: middle;
+  text-align: center;
+  transition:$global-transition;
+  outline:none;
+  border:none;
+}

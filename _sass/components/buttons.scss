@@ -1,0 +1,113 @@
+/*===================================================
+   #BUTTONS 
+===================================================*/
+button,.c-button{
+  display:inline-block;
+  cursor: pointer;
+  margin:$margin;
+  text-decoration:none;
+  font-weight:700;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  border-radius:$global-radius;
+  vertical-align: middle;
+  text-align: center;
+  transition:$global-transition;
+  outline:none;
+  border:none;
+//
+
+  line-height:1.6rem;
+  max-width:300px;
+
+  &.c-p{
+  padding:.4rem 1rem;
+  font-size:1rem;
+  }
+  @media only screen and (max-width:300px){
+  &.c-p{
+    padding:.2rem .5rem;
+    font-size:1rem;
+  }}
+  &.c-m{
+    padding:.6rem 2rem;
+    font-size:1rem;
+  }
+  @media only screen and (max-width:300px){
+    &.c-m{
+      padding:.4rem 1.5rem;
+      font-size:1rem;
+    }}
+  &.c-g{
+    padding:.9rem 3rem;
+    font-size:1.2rem;
+  }
+  @media only screen and (max-width:300px){
+    &.c-g{
+      padding:.6rem 2rem;
+      font-size:1.2rem;
+    }}
+    
+    
+
+    //basic
+    &.c-basic{
+      color:$color-b-3;
+      background:$color-n-almostwhite;
+      &:hover,
+      &:focus{
+        background:$color-u-1-20;
+      }
+      &:active{
+        color: $color-b-1;
+      }
+      transition: $global-transition;
+    }
+    //cor-1
+    &.c-um{
+      color:$color-b-3;
+      background:$color-u-1-20;
+      &:hover,
+      &:focus{
+        color:$color-u-1-20;
+        background:$color-b-3;
+      }
+      &:active{
+        color: $color-b-1;
+      }
+      transition: $global-transition;
+    }
+    //cor-2
+    &.c-dois{
+      color:white;
+      background:green;
+      &:hover,
+      &:focus{
+        color:green;
+        background:orange;
+      }
+      &:active{
+        color: pink;
+      }
+      transition: $global-transition;
+    }
+    //cor-3
+    &.c-tres{
+      color:orange;
+      background:white;
+      &:hover,
+      &:focus{
+        color:$color-n-almostblack;
+      }
+      &:active{
+        color: $color-b-2;
+      }
+      transition: $global-transition;
+    }
+    &.c-full,.full a{
+      display: block;
+      width:100%;
+      max-width:100%;
+      margin: .5rem auto;
+    }
+}

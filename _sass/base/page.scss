@@ -1,0 +1,21 @@
+/*===================================================
+    PAGE
+===================================================*/
+
+html {
+  font-size: $base-fontsize; /* [1] */
+  line-height:$base-lineheight; /* [1] */
+  overflow-y: scroll; /* [2] */
+  min-height: 100%; /* [3] */
+} 
+
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color:$color-n-almostblack;
+}
+ 
+
+
+

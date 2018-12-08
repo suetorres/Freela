@@ -1,0 +1,96 @@
+/*===================================================
+   HEADER
+===================================================*/
+.header-full{
+  top:0;
+  background:transparent;
+  height:auto;
+  width:100%;
+  padding:0;
+  z-index:999;
+}
+.header{
+  max-width:$container-width;
+  margin:0 auto; 
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  text-align:center;
+  z-index:999;
+  height: 60px;
+}
+
+.logo{align-content: center;align-items: center;
+  color:white;
+  font-size:1rem;
+  padding-left:.5rem;
+  flex-shrink:0;
+  & a{text-decoration:none;color:inherit;}
+  & img{vertical-align:top;
+  height:120px;}
+}
+.header-nav{
+  list-style:none;
+  width:auto;
+  color:white;
+  text-decoration:none;
+  &:last-child{padding-right:0;}
+  & a{text-decoration:none;color:inherit}
+ } 
+  @media only screen and (min-width:500px){
+    .header-nav{
+      width:auto;
+   }
+  }
+.header-ul{margin: 0;}
+.header-link{
+  display:inline-block;/*block*/
+  padding:0 .5rem 0 .5rem;
+  cursor: pointer;
+  text-decoration:none;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  text-transform: capitalize;
+  &:hover{
+    color:$color-b-3;
+  }
+
+}  
+
+
+
+
+/*==========================
+   HEADER NAV
+===========================*/
+.header-nav{display:block;}//none/*não precisa mudar aqui se usar o header-on no header-nav no html*/
+.nav-toggle{
+  display:block;height: 50px;width: 50px;
+  background:$hamburguer-bg;
+  position:relative;
+  line-height:inherit;}
+@media only screen and (min-width:500px){
+  .nav-toggle{display:none;}
+  .header-nav{display:block;}
+  .hamburguer-menu{display:none;}
+}
+
+
+.social{
+  padding: 3rem 0;
+  color:$hn-social;
+  & i{
+    padding:.3rem;
+  }
+  & i:hover{
+    color:$hn-social-hover;
+    -webkit-transition:$global-transition;
+    -o-transition:$global-transition;
+    -moz-transition:$global-transition;
+    transition:$global-transition;
+  }
+  & a:visited {
+  color:$hn-social;
+  }
+}
+

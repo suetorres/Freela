@@ -1,0 +1,105 @@
+// BRAND COLOURS
+// LARANJA
+$color-b-1:#db5218;//ff8426
+$color-u-1-dark:#9e3b11;
+$color-u-1-60:#e27344;
+$color-u-1-40:#f0b59c;
+$color-u-1-20:#fae6de;
+$color-u-1-10:#fef7f4;//ffeee1
+$color-u-1-highlight:rgb(255, 26, 26);
+//VERDE
+$color-b-2:#c3efde;//afffdf
+$color-u-2-dark:darken($color-b-2, 30%);
+$color-u-2-60:lighten($color-b-2, 60%);
+$color-u-2-40:lighten($color-b-2, 40%);
+$color-u-2-20:lighten($color-b-2, 20%);
+$color-u-2-10:#f9fdfb;//f3fffa
+$color-u-2-highlight:#5affbd;
+//MARRON
+$color-b-3:#836d5f;//785e4d
+$color-u-3-dark:#342b26;
+$color-u-3-60:#ab988c;
+$color-u-3-40:#c1b2a9;
+$color-u-3-20:#f3f0ee;
+$color-u-3-10:#faf9f8;//f2eee3
+$color-u-3-highlight:#000;
+//AZUL
+$color-b-4:#bbb7b5;
+$color-u-4-dark:#706a67;
+$color-u-4-60:#d3d1d0;
+$color-u-4-40:#ecebea;
+$color-u-4-20:#f4f3f3;
+$color-u-4-10:#fcfcfc;//f3fffa
+$color-u-4-highlight:#000;
+
+// NEUTRAL COLOURS
+$color-n-white:#fff;
+$color-n-almostwhite:rgb(251, 249, 250);
+$color-n-lightgray:rgb(202, 196, 198);
+$color-n-gray:rgb(158, 150, 153);
+$color-n-darkgray:rgb(122, 112, 116);
+$color-n-almostblack:rgb(15, 11, 12);
+$color-n-black:#000;//mas não é bom usar
+
+// TEXT
+$color-text:$color-n-almostblack;
+$color-text-light:$color-n-gray;
+
+$color-code:$color-u-2-60;
+$color-pre-background:$color-n-lightgray;
+$color-pre:$color-u-2-60;
+
+// PAGE
+$color-page-bg:$color-n-white;
+$color-page-text:$color-n-almostblack;
+
+$color-page-alternative-bg:$color-u-2-10;
+$color-page-alternative-text:$color-u-1-dark;
+
+// LINKS
+$color-links:$color-u-1-60;
+$color-links-highlight:$color-u-1-highlight;
+
+// ICONS
+$color-icon:$color-u-1-40;
+$color-icon:$color-b-1;
+
+// HEADINGS
+$color-heading:$color-b-2;
+$color-heading-sub:$color-u-2-dark;
+
+// QUOTES
+$color-quote-text:$color-b-3;
+$color-quote-highlight:$color-b-1;
+
+// COLOR BLEND
+$color-blend:rgba(55, 200, 145, 0.68);
+$color-blend-bg: rgba(255, 255,255, .1);
+$mix-blend-mode: lighten;
+$mix-blend-mode-bg: lighten;
+
+// DUOTONE
+$duotone-bg-color:rgb(46,150,103);
+$duotone-base:#f7392b;
+$duotone-bg-blend:multiply;
+$duotone-blur:0px;
+$duotone-fg-blend:lighten;
+$duotone-foreground:#16006f;
+$duotone-opacity: 1;
+$duotone-spacing:5px;
+
+
+// HAMBURGUER
+$hamburguer:$color-b-4;
+$hamburguer-bg:transparent;
+
+// HAMBURGUER-NAV
+$hn-bg-color:$color-b-3;
+$hn-logo:$color-b-4;
+$hn-logo-hover:$color-b-3;
+$hn-link:$color-b-2;
+$hn-link-hover:$color-b-1;
+
+$hn-textos:$color-n-almostblack;
+$hn-social:$color-b-2;
+$hn-social-hover:$color-b-1;

@@ -1,0 +1,240 @@
+.header-nav button{
+    color:green;
+}
+/*===================================================
+    CAPA
+===================================================*/
+.capa{background:#FFC35AFF;
+    position: relative;
+    margin-top: 0px;
+    height: 600px;
+}
+.capa img{position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 7%;
+    left: -140px;
+    object-fit: contain;
+}
+.capa p{
+    position: absolute;
+    top: 25%;
+    right: 20px;
+
+    padding:1rem;
+    color: black;
+    border-radius: 5px;
+    font-size: calc(.8rem + 1vw);
+    text-transform: uppercase;
+    text-align: left;
+
+    font-weight: normal;
+    line-height: 2.3;
+    margin: 0;
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+
+.capa p span{
+        display: inline;
+    padding: 0.5rem 0.25rem 0;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background: white;
+}
+@media only screen and (min-width:400px){
+    
+    .capa p{
+        font-size: calc(.5rem + 2vw);
+    }
+}
+
+
+
+/*===================================================
+ PACOTES
+===================================================*/
+.pacote{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    & button{
+        position: relative;
+
+    }
+}
+.pacote-1{position: relative;
+    background-size: cover; 
+    padding: 1rem;
+    position: relative;
+    z-index: 2;
+}
+.imgg{
+    position: absolute;
+    right:0px;
+    top: -150px;
+    z-index: 5;
+
+    object-fit: contain;
+
+
+}
+.div-1{padding-left: 3rem;}
+.title{clear: both;
+    position: relative;
+    z-index: 15;
+}
+.paragraph{
+    position: relative;
+    z-index: 10;
+}
+.pacote-2{
+    padding: 1rem;
+}
+.imgaa{
+
+    z-index: 5;
+    object-fit:contain;
+    width: auto;
+    height: calc(200px + 50vh);
+    padding-left: 3rem;
+}
+.div-2{padding-left: 3rem;}
+.texto{
+    z-index: 10;
+    
+
+    max-width: 900px;
+    border-radius:$base-radius;
+}
+.pacote:first-of-type{
+    margin-bottom: 6rem;
+}
+.div-3{padding-left: 3rem;
+max-width: 80%;}
+.pacote-4{
+    position: relative;
+    background-size: cover; 
+    padding: 1rem;
+    position: relative;
+
+}
+.imgee{
+    position: absolute;
+    right: 0px;
+    bottom:0px;
+
+    height: 450px;
+
+}
+
+
+.baixar{
+    width: 150px;
+    height: 150px;
+}
+/*===================================================
+ RODAPÉ
+===================================================*/
+.footer{
+
+    color: white;
+    background:#FFC35AFF;
+
+    & ul{
+        list-style: none;
+        padding: .2rem;
+    }
+    & ul p{
+        margin-bottom: 0;
+    }
+    & ul p input{
+        width: 70%;
+        max-width: 70%;
+        display: inline;
+    }
+}
+p{margin:0 0 0 0;}
+
+.assine{
+    align-content: center;
+    padding: 1rem;
+    & .c-button, input{
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 700;
+        vertical-align: middle;
+    }
+    & .c-button{
+        width: 30%;
+        margin: 0;
+        border-radius: 0 $base-radius $base-radius 0;
+    }
+    & input{
+        width: 50%;
+        background:transparent;
+        padding: .4rem;
+        border: 1px solid white;
+        border-radius: $base-radius 0 0 $base-radius;
+    }
+    & input:hover,
+    input:focus{
+    border: 1px solid white;
+    }
+    & p{
+        margin-bottom: 0;
+    }
+}
+
+.input-email{border:1px solid white;}
+
+
+.rodape-textos{
+    padding: .5rem;
+    color: $color-b-2;
+    & i{
+        padding-right: 1rem;
+    }
+    & textarea{
+        height: 100px;
+    }
+}
+@media only screen and (min-width:500px){
+    .contato{
+    padding: 2rem;
+}
+}
+.contato a{
+    color:$color-b-2;
+}
+.contato a:hover{
+    color:$color-u-1-40;
+    transition:$global-transition;}
+
+.form{
+    padding-left: 3rem;
+    max-width: 500px;
+}
+
+/*===================================================
+ NOTAS DO RODAPÉ
+===================================================*/
+.label-contato{
+    color: gray;
+}
+.social-nav{
+
+    padding: 1rem;
+}
+.social-nav img{
+    width: 20px;
+    height: 20px;
+}
+.social-nav i{
+    padding: .5rem;
+    color: white;
+}
+.footer i span{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+

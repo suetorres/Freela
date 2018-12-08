@@ -1,0 +1,108 @@
+//=================================================
+//   CORE
+//=================================================
+
+// This core file sets up inuitcss’ most important setup iables. They
+// underpin a lot of how the framework functions and should be modified and
+// preconfigured with caution.
+
+// Baseline grid lines height.
+// Every spacing metric should be based on this.
+
+$base-fontsize:16px;
+$base-lineheight:24px;
+
+$base-radius:3px;
+
+$base-spacing:calc($base-fontsize/2);
+$base-spacing-unit:calc($base-lineheight/4);
+
+
+//=================================================
+//   GLOBAL
+//=================================================
+
+// The global settings file contains any project-wide iables; things that
+// need to be made available to the entire codebase.
+// Standardise some UI treatments.
+
+$global-radius: 3px;
+$global-transition: all 300ms ease-in-out;
+
+$padding-top:4rem;
+$padding-bottom:4rem;
+$margin-top:4rem;
+$margin-bottom:4rem;
+
+$margin: 0.5rem;
+$padding: 0.5rem;
+
+//=================================================
+//    RESPONSIVE
+//=================================================
+
+$breakpoint-p: 400px;
+$breakpoint-m: 600px;
+$breakpoint-g: 900px;
+$breakpoint-gg: 1200px;
+$breakpoint-xg: 1800px;
+
+//=================================================
+//   FONTS
+//=================================================
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100,300,400,500,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+
+$font-brand:'Dancing Script', cursive;
+$font-sansserif:'M PLUS Rounded 1c', sans-serif;
+$font-monospace:'Space Mono', monospace;
+$font-base-fontsize: 1rem;
+$font-base-lineheight: 1.6;
+$font-ratio: 1.2;
+
+//=================================================
+//    LAYOUT
+//=================================================
+$container-width: 1200px;
+$container-padding:0 .5rem;
+@media only screen and (min-width:500px){
+	$container-padding:0 2rem;
+}
+
+
+//=================================================
+//    OUTROS
+//=================================================
+$border-p:3px;
+$border-m:6px;
+
+$shadow-p:0px 0px 8px 2px rgba(0, 0, 0, 0.15);
+$shadow-p-active:0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+
+$shadow-m:0px 0px 20px 4px rgba(0, 0, 0, 0.25);
+$shadow-m-active:0px 0px 10px 4px rgba(0, 0, 0, 0.25);
+
+$shadow-g:0px 4px 10px 2px rgba(229, 55, 104, 0.25), 
+         0px 0px 20px 4px rgba(0, 0, 0, 0.15);
+$shadow-g-active:0px 2px 5px 2px rgba(229, 55, 104, 0.25), 
+                0px 0px 8px 4px rgba(0, 0, 0, 0.15);
+//=================================================
+//    HEADER
+//=================================================
+$hn-top:-1px;
+$border-m:6px;
+
+//=================================================
+//    HAMBURGUER NAV
+//=================================================
+$hn-top:51px;
+$hn-width:100%;
+$hn-height:99%;
+$hn-font-size:1.5rem;
+$hn-link-padding-top:1rem;
+$hn-link-padding-bottom:2rem;
+
+
+

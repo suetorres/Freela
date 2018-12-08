@@ -1,0 +1,50 @@
+---
+
+---
+
+/*! Simple
+ * A front end Sass boilerplate
+ *
+ * Author: Sue Torres 
+ */
+
+// Settings
+@import "../_sass/settings/core";
+@import "../_sass/settings/colors";
+
+// Tools
+//vazio
+
+// Generic
+@import "../_sass/generic/sanitize";
+
+// Base
+@import "../_sass/base/buttons";
+@import "../_sass/base/forms";
+@import "../_sass/base/images";
+@import "../_sass/base/links";
+@import "../_sass/base/lists";
+@import "../_sass/base/page";
+@import "../_sass/base/quotes";
+@import "../_sass/base/tables";
+@import "../_sass/base/typography";
+
+// Objects
+@import "../_sass/objects/grid";
+@import "../_sass/objects/lists";
+@import "../_sass/objects/tables";
+@import "../_sass/objects/typography";
+@import "../_sass/objects/wrappers";
+
+// Components
+@import "../_sass/components/buttons";
+@import "../_sass/components/cards";
+@import "../_sass/components/selects";
+@import "../_sass/components/header";
+@import "../_sass/components/links";
+@import "../_sass/components/quotes";
+@import "../_sass/components/especificos";
+
+// Utilities
+@import "../_sass/utilities/effects";
+@import "../_sass/utilities/utilities";

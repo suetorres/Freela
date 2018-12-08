@@ -1,0 +1,26 @@
+/*===================================================
+    TYPE
+===================================================*/
+
+
+/**
+ * A generic heading style which can be applied to any headings.
+ */
+.o-title {
+    color:var(--color-b-1);
+}
+
+.o-title-sub {
+	color:var(--color-b-1-60);
+    font-weight:500;
+    margin-bottom: 0;
+}
+
+.code-background {
+    padding: .1rem .4rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius:3px; }
+.code-highlight {
+    padding: .1rem -.2rem;
+    border-radius:3px;
+    border-left: 0.5rem solid $color-b-1;}

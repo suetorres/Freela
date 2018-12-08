@@ -1,0 +1,27 @@
+/*===================================================
+   TABLES
+===================================================*/
+
+/**
+ * 1. Ensure tables fill up as much space as possible.
+ */
+
+table {
+  width: 100%; /* [1] */
+}
+
+/*===================================================
+    Tables
+===================================================*/
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse; }
+table th {
+  padding: .5rem;
+  font-weight: 500;
+  border-bottom: 0.2rem solid $color-u-4-10;
+  vertical-align: bottom; }
+table td {
+  padding: .5rem;
+  border-top: 1px solid $color-u-4-10; }

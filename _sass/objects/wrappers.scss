@@ -1,0 +1,43 @@
+/*===================================================
+    WRAPPERS
+===================================================*/
+.o-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-right:0;
+    padding-left:0;
+  & .wide {
+      max-width: 1280px;
+  }
+}
+.o-wrapper {
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto;
+  max-width:0;
+}
+/*===================================================
+    Largura
+===================================================*/
+.o-super-box{
+  display:flex;
+  flex-wrap:wrap;
+  padding:.5rem;
+  }
+@media only screen and (min-width:400px){
+  .o-super-box{padding:1rem;}
+}
+.o-box-full{
+  height:auto;
+  width:100%;
+}
+.o-box{border:1px solid $color-n-almostblack;}
+/*--------CONTAINER---------*/
+.o-container {
+  position: relative;
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: $container-padding; 
+}
+

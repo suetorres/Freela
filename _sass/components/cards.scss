@@ -1,0 +1,103 @@
+/*===================================================
+   CARDS
+===================================================*/
+.c-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  align-items:center;
+  justify-items:center;
+  position: relative;
+
+  .small {
+    max-width: 250px;
+  }
+  .large {
+    max-width:480xp;
+  }
+  .fluid {
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+
+/*------CARD TEXTO CENTRAL-----*/
+.c-central{
+  height:250px;
+  position:relative;
+  text-align:center;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    }
+  div{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+}
+
+
+
+/*------CARD TEXTO EMBAIXO-----*/
+.c-embaixo{
+  height:auto;
+  position:relative;
+  text-align:center;
+  img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .texto {
+    padding:1rem;
+  }
+}
+
+
+
+/*------CARD COM ICONE-----*/
+.c-service{
+  height:auto;
+  position:relative;
+  text-align:center;
+  img {
+    object-fit: cover;
+    width: 50%;
+  }
+  .texto {
+    padding:1rem;
+  }
+}
+
+
+
+/*------CARD COM NUMERO-----*/
+.c-contagem{
+  padding:.5rem;
+  position:relative;
+  text-align:center;
+  .title {
+    font-weight:900;
+    font-size:3rem;
+    letter-spacing: 10px;
+    line-height:1.6rem;
+    color:var(--cor-primary-10);
+  }
+  .paragraph {
+    font-weight:700;
+    font-size:1rem;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    line-height:1.6rem;
+    color:var(--cor-primary-40);
+  }
+}
+
+/*------CARD FIM-----*/
+
+
