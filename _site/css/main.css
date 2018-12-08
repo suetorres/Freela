@@ -536,7 +536,7 @@ button {
   margin: auto;
   width: 100%;
   max-width: 100%;
-  border-bottom: 4px solid orange; }
+  border-bottom: 4px solid #ffc35a; }
 
 [type=color]:hover textarea, [type=date]:hover textarea, [type=datetime]:hover textarea, [type=datetime-local]:hover textarea, [type=email]:hover textarea, [type=month]:hover textarea, [type=number]:hover textarea, [type=password]:hover textarea, [type=search]:hover textarea, [type=tel]:hover textarea, [type=text]:hover textarea, [type=url]:hover textarea, [type=week]:hover textarea, [type=time]:hover textarea, select:hover textarea, textarea:hover textarea {
   width: 100%;
@@ -1776,7 +1776,7 @@ button, .c-button {
     CAPA
 ===================================================*/
 .capa {
-  background: #FFC35AFF;
+  background: #ffc35a;
   position: relative;
   margin-top: 0px;
   height: 600px; }
@@ -1851,6 +1851,10 @@ button, .c-button {
   position: relative;
   z-index: 10; }
 
+.paragraph span {
+  font-size: 1.3rem;
+  color: #ffc35a; }
+
 .pacote-2 {
   padding: 1rem; }
 
@@ -1897,7 +1901,7 @@ button, .c-button {
 ===================================================*/
 .footer {
   color: white;
-  background: #FFC35AFF; }
+  background: #ffc35a; }
   .footer ul {
     list-style: none;
     padding: .2rem; }

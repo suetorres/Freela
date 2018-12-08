@@ -4,7 +4,7 @@
 /*===================================================
     CAPA
 ===================================================*/
-.capa{background:#FFC35AFF;
+.capa{background:#ffc35a;
     position: relative;
     margin-top: 0px;
     height: 600px;
@@ -88,6 +88,10 @@
     position: relative;
     z-index: 10;
 }
+.paragraph span{
+    font-size: 1.3rem;
+    color: #ffc35a;
+}
 .pacote-2{
     padding: 1rem;
 }
@@ -139,7 +143,7 @@ max-width: 80%;}
 .footer{
 
     color: white;
-    background:#FFC35AFF;
+    background:#ffc35a;
 
     & ul{
         list-style: none;
